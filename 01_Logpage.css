@@ -1,29 +1,113 @@
-*{
-    margin: 0;
-    box-sizing:content-box;
+* {
+  margin: 0;
+  box-sizing: content-box;
+  color: aliceblue;
 }
 
-body{
-    background-color: aquamarine;
+body {
+background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs);  
 }
 
-.header{
-    height: 150px ;
-    width: 100% ;
-    justify-content: left;
-    align-items: end;
+.header {
+  height: 100px;
+  width: 100%;
+  justify-content: left;
+  align-items: end;
 }
 
-img{
-    height: 120px;
-    width: auto;
+img {
+  height: 100px;
+  width: auto;
+  display: block;
 }
 
-.main_content{
-    height: 100%;
-    width: 100vh;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+.main_content {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 
+.login_box {
+  background-color: rgb(0, 0, 0, 0.7);
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  z-index:1;
+
+
+}
+
+.head_login {
+  font-family: fantasy;
+  font-size: 50px;
+
+}
+
+.text_alig {
+  width: 400px;
+  height: 400px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: rgb(48, 48, 48);
+    border: 0cm;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: rgb(48, 48, 48);
+  border: 0cm;
+
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: red;
+    font-size: 20px;
+
+    border: solid 0px whitesmoke;
+  }
+
+  .footer_login{
+
+  width: 400px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  }
+.NH{
+    width: 250px;
+    height: 50px;
+    text-align: right;
+    
+}
+
+.foot_info{
+
+    width: 400px;
+    
+    justify-content:end;
+  align-items:end;
+
+}
+a {
+    text-decoration: none;
+  }
